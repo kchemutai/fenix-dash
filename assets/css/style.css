@@ -4531,8 +4531,9 @@ h6.h1 {
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+  float: Center;
+  width: 600px;
+  display: inline;
 }
 
 div.gallery:hover {
@@ -4546,5 +4547,16 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: DodgerBlue;
+  color: white;
+  width: 100%;
+  align-items: auto;
+}
+#h4-month{
   text-align: center;
 }
