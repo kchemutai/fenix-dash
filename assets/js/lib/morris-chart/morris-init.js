@@ -5,31 +5,31 @@ $( function () {
 	Morris.Bar( {
 		element: 'morris-bar-chart',
 		data: [ {
-			y: '2006',
+			y: 'Mon',
 			a: 100,
 			b: 90
         }, {
-			y: '2007',
+			y: 'Tue',
 			a: 75,
 			b: 65
         }, {
-			y: '2008',
+			y: 'Wed',
 			a: 50,
 			b: 40
         }, {
-			y: '2009',
+			y: 'Thur',
 			a: 75,
 			b: 65
         }, {
-			y: '2010',
+			y: 'Fri',
 			a: 50,
 			b: 40
         }, {
-			y: '2011',
+			y: 'Sat',
 			a: 75,
 			b: 65
         }, {
-			y: '2012',
+			y: 'Sun',
 			a: 100,
 			b: 90
         } ],
